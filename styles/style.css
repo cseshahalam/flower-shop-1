@@ -132,9 +132,8 @@ header {
 
 .section-content .section-flower p {
     color: #272727;
-    margin-top: 16px
-    ;
-    
+    margin-top: 16px;
+
     text-align: center;
     font-family: Lato;
     font-size: 24px;
@@ -144,21 +143,108 @@ header {
     /* 145.833% */
     text-decoration-line: underline;
 }
-.image
-{
+
+.image {
     display: flex;
     justify-content: space-between;
     background: border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
-    padding:50px 200px;
-    text-align:center;
-    
-    
+    padding: 50px 200px;
+    text-align: center;
+    margin-bottom: 100px;
+
+
 
 }
-.image *{
+
+.image * {
     margin-bottom: 16px;
+
+
+
+}
+
+.hot-deal {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.hot-deal .hot-deal-text {
+    text-align: center;
+    max-width: 50%;
+    margin-top: 100px;
+}
+
+.hot-container {
+
+    background: rgba(229, 84, 115, 0.05);
+    /* padding: 20px 0;
     
-    
-    
+ */
+    margin-bottom: 100px;
+}
+
+.hot-deal .hot-deal-text h2 {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+
+.hot-deal .hot-deal-text * {
+    margin-bottom: 20px;
+}
+
+.red {
+    color: #E55473;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.instragram-head {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.instragram-head h2 {
+    color: #272727;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.instragram-head p
+{
+    color: rgba(39, 39, 39, 0.60);
+    margin-bottom: 50px;
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+
+.instragram-img {
+    display: flex;
+    justify-content: space-around;
+}
+
+.instragram-img img {
+    width: 100%;
+}
+
+.bg{
+    border-radius: 8px;
+background: url('Flower Assets/Rectangle9.png');
 }
