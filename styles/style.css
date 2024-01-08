@@ -38,7 +38,7 @@ header {
     background: rgba(229, 84, 115, 0.10);
 }
 
-.container {
+.container{
 
     max-width: 75%;
     max-width: 1440;
@@ -76,10 +76,10 @@ header {
 
 }
 
-.section-heading {
-    width: 500px;
+.section-heading{
+    max-width: 500px;
     text-align: center;
-    margin: 20px 240px;
+    margin: 30px auto;
 }
 
 .section-heading h2 {
@@ -246,5 +246,51 @@ line-height: 30px; /* 166.667% */
 
 .bg{
     border-radius: 8px;
-background: url('Flower Assets/Rectangle9.png');
+    background: url('Flower Assets/Rectangle9.png');
+}
+
+#newsletter{
+    margin-top: 100px;
+}
+
+.newsletter-main{
+    background-image: url("../Flower Asset/Rectangle\ 9.png");
+    padding:100px 0;
+    margin:0 auto;
+}
+
+#newsletter form{
+    max-width: 800px;
+    display: flex;
+    margin: 20px auto;
+}
+
+#newsletter form input{
+    flex-grow:1;
+    border:none;
+    padding: 20px;
+    font-size: 18px;
+    outline: none;
+    border-radius: 5px;
+}
+
+.copy{
+    margin: 0 auto;
+    width: 800px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.40);
+}
+footer{
+    background: #111010;
+    color:color: rgba(255, 255, 255, 0.90);
+    padding:30px;
+}
+.footer-heading p{
+    color: rgba(255, 255, 255, 0.90);
+}
+.text-color{
+    color: #E55473;
+}
+.footer-heading h2{
+    color: #FFF;
 }
